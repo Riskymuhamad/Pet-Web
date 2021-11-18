@@ -34,7 +34,7 @@ export const Desc = () => {
               animals to be cared for here. <br />
               <br />
               Our goal is to make animals feel comfortable and healthy so they
-              won't go extinct
+              won&#x91;t go extinct
             </p>
             <Tombol>
               <Image src="/arrow2.svg" alt="Logo Pet" width={80} height={45} />
