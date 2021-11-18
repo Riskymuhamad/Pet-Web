@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Image from "next/image";
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <>
       <Container>
@@ -162,3 +162,5 @@ const Logo = styled.div`
     color: #e4761a;
   }
 `;
+
+export default Footer;

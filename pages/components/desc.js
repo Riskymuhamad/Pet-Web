@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Image from "next/image";
 
-export const Desc = () => {
+const Desc = () => {
   return (
     <>
       <Container>
@@ -34,7 +34,7 @@ export const Desc = () => {
               animals to be cared for here. <br />
               <br />
               Our goal is to make animals feel comfortable and healthy so they
-              won&#x91;t go extinct
+              won&lsquo;t go extinct
             </p>
             <Tombol>
               <Image src="/arrow2.svg" alt="Logo Pet" width={80} height={45} />
@@ -104,3 +104,5 @@ const Tombol = styled.div`
 `;
 
 const Gambar = styled.div``;
+
+export default Desc;

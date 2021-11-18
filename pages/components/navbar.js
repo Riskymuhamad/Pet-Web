@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Image from "next/image";
 import Link from "next/link";
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
     <>
       <Navbars>
@@ -126,3 +126,5 @@ const NavLogin = styled.button`
   color: #ffffff;
   cursor: pointer;
 `;
+
+export default Navbar;

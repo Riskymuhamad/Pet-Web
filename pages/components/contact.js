@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Image from "next/image";
 
-export const Contact = () => {
+const Contact = () => {
   return (
     <>
       <Container>
@@ -146,3 +146,5 @@ const Tombol = styled.button`
   letter-spacing: 0.02em;
   color: #ffffff;
 `;
+
+export default Contact;

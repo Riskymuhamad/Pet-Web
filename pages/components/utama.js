@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Image from "next/image";
 
-export const Utama = () => {
+const Utama = () => {
   return (
     <>
       <Container>
@@ -129,3 +129,5 @@ const Watch = styled.div`
   }
 `;
 const Gambar = styled.div``;
+
+export default Utama;

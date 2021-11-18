@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Image from "next/image";
 
-export const Cards = () => {
+const Cards = () => {
   return (
     <>
       <Container>
@@ -263,3 +263,5 @@ const Gambar2 = styled.div`
   display: flex;
   justify-content: center;
 `;
+
+export default Cards;

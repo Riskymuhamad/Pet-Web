@@ -1,10 +1,10 @@
 import Head from "next/head";
-import { Navbar } from "./components/navbar";
-import { Utama } from "./components/utama";
-import { Desc } from "./components/desc";
-import { Cards } from "./components/cards";
-import { Contact } from "./components/contact";
-import { Footer } from "./components/footer";
+import Navbar from "./components/navbar";
+import Utama from "./components/utama";
+import Desc from "./components/desc";
+import Cards from "./components/cards";
+import Contact from "./components/contact";
+import Footer from "./components/footer";
 
 export default function Home() {
   return (
